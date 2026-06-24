@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Capilar Tech – Catálogo de Productos</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header class="encabezado contenedor">
+    <h1>Capilar Tech</h1>
+    <nav class="menu">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="catalogo.html" class="activo">Catálogo</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contenedor">
+    <h2 style="margin: 2rem 0; text-align:center;">Nuestros Productos</h2>
+    <div class="cuadricula">
+      <figure class="tarjeta">
+        <img src="img/limpieza.jpg" alt="Champú suave" class="img‑resp">
+        <figcaption>Champú de limpieza profunda</figcaption>
+        <button class="btn" onclick="verDetalle()">Ver detalle</button>
+      </figure>
+      <figure class="tarjeta">
+        <img src="img/hidratacion.jpg" alt="Mascarilla hidratante" class="img‑resp">
+        <figcaption>Mascarilla hidratante intensiva</figcaption>
+        <button class="btn" onclick="verDetalle()">Ver detalle</button>
+      </figure>
+      <figure class="tarjeta">
+        <img src="img/proteccion.jpg" alt="Protector térmico" class="img‑resp">
+        <figcaption>Protector térmico y solar</figcaption>
+        <button class="btn" onclick="verDetalle()">Ver detalle</button>
+      </figure>
+      <figure class="tarjeta">
+        <img src="img/cortes.jpg" alt="Aceite reparador puntas" class="img‑resp">
+        <figcaption>Aceite reparador de puntas</figcaption>
+        <button class="btn" onclick="verDetalle()">Ver detalle</button>
+      </figure>
+    </div>
+  </main>
+
+  <script src="js/interaccion.js"></script>
+</body>
+</html>
